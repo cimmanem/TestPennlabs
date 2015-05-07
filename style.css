@@ -14,12 +14,12 @@
 ----------------------------------------------------------------*/
 
 ::selection {
-    background: #FD685B;
+    background: #c4d5cb;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #FD685B;
+    background: #c4d5cb;
     color: #fff;
 }
 
@@ -64,7 +64,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #222;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
     line-height: 1.34;
     text-rendering: auto; /* Android browser */
 }
@@ -431,7 +431,7 @@ nav > ul > li {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 0.778em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
     cursor: pointer;
 }
 
@@ -498,7 +498,7 @@ nav ul.sub-menu > li > a {
 }
 
 nav ul.sub-menu > li > a:hover {
-    background-color: #FD685B;
+    background-color: #c4d5cb;
     color: #fff;
 }
 
@@ -533,7 +533,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 #menu-toggle:hover {
-    color: #FD685B;
+    color: #c4d5cb;
 }
 
 
@@ -771,12 +771,12 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 .single #post-nav a:hover {
-    color: #FD685B;
+    color: #c4d5cb;
 }
 
 .single #post-nav .label {
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .single #post-nav .label,
@@ -827,7 +827,7 @@ nav ul.sub-menu > li:last-child > a {
 .single .meta-post a:hover,
 .blog.list-style .meta-post a:hover,
 .search.list-style .meta-post a:hover {
-    color: #FD685B;
+    color: #c4d5cb;
 }
 
 .single h1 {
@@ -1065,7 +1065,7 @@ nav ul.sub-menu > li:last-child > a {
 .blog.list-style article h2 a:hover,
 .blog-section.list-style article h2 a:hover,
 .search.list-style article h2 a:hover {
-    color: #FD685B;
+    color: #c4d5cb;
     text-decoration: none;
 }
 
@@ -1103,7 +1103,7 @@ nav ul.sub-menu > li:last-child > a {
     color: #444;
     font-weight: 700;
     font-size: 0.889em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
     cursor: pointer;
 }
 
@@ -1114,7 +1114,7 @@ nav ul.sub-menu > li:last-child > a {
 
 .portfolio ul.cats li.active {
     border-bottom: none;
-    color: #FD685B;
+    color: #c4d5cb;
 }
 
 .related .item {
@@ -1376,7 +1376,7 @@ a.reply {
 
 .comment-author cite a:hover,
 a.reply:hover {
-    color: #FD685B;
+    color: #c4d5cb;
 }
 
 .comment-author {
@@ -1632,7 +1632,7 @@ section.greyish {
 
 .call-to-action p {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
     margin-bottom: 0;
 }
 
@@ -1764,7 +1764,7 @@ section.greyish {
     color: #666;
     font-weight: 700;
     font-size: 2.333em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
     line-height: 1.34;
 }
 
@@ -1782,7 +1782,7 @@ section.greyish {
 .count-subject {
     font-weight: 700;
     font-size: 0.889em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .chart-title {
@@ -1857,7 +1857,7 @@ section.greyish {
 
 .timeline .experience-info .role {
     font-size: 0.778em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .timeline .experience-info p {
@@ -1871,7 +1871,7 @@ section.greyish {
     color: #ccc;
     text-align: center;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .timeline .experience-img,
@@ -2068,7 +2068,7 @@ section.greyish {
     text-align: center;
     font-weight: 700;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .infobox-inner:after, .infobox-inner:before {
@@ -2430,7 +2430,7 @@ input.button {
     text-decoration: none !important;
     text-transform: uppercase;
     font-size: 0.778em !important;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Palanquin', sans-serif !important;
     line-height: 1.714em !important;
     cursor: pointer;
 }    
@@ -3574,7 +3574,7 @@ footer .row-content.buffer {
     }
 
     nav ul li > a:hover {
-        color: #FD685B !important;
+        color: #c4d5cb !important;
     }
 
     nav > ul > li:hover > a {
