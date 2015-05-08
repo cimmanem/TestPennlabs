@@ -2,13 +2,15 @@
 
 <?php
     $name = $_POST['name'];
+    $role = $_POST['role'];
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $to = "pennlabs@uphs.upenn.edu"; // Replace xxxx@xxxx.com with your email address (mandatory!) 
-    $subject = "Hello"; // Choose a custom subject (not mandatory)
 
-    $body = "You have received a message from " . $name . " (" . $email . "):\n\n" . $message;
+    $to = "pennlabs@uphs.upenn.edu"; // Replace xxxx@xxxx.com with your email address (mandatory!) 
+    $subject = "PennLabs - New Message"; // Choose a custom subject (not mandatory)
+
+    $body = "You have received a message from " . $name . " [Role: " . $role . "] (" . $email . "):\n\n" . $message;
 
     $from = "From: PennLabs Landing Page"; // Replace "Beetle Template" with your site name (not mandatory)   
     $headers = "From:" . $from . "\r\n";
