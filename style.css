@@ -14,12 +14,12 @@
 ----------------------------------------------------------------*/
 
 ::selection {
-    background: #c4d5cb;
+    background: #c1d8ca;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #c4d5cb;
+    background: #c1d8ca;
     color: #fff;
 }
 
@@ -498,7 +498,7 @@ nav ul.sub-menu > li > a {
 }
 
 nav ul.sub-menu > li > a:hover {
-    background-color: #c4d5cb;
+    background-color: #c1d8ca;
     color: #fff;
 }
 
@@ -533,7 +533,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 #menu-toggle:hover {
-    color: #c4d5cb;
+    color: #c1d8ca;
 }
 
 
@@ -575,7 +575,7 @@ nav ul.sub-menu > li:last-child > a {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.35);
+    background: rgba(203, 203, 203, 0.76);
 }
 
 #intro .intro-mockup,
@@ -771,7 +771,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 .single #post-nav a:hover {
-    color: #c4d5cb;
+    color: #c1d8ca;
 }
 
 .single #post-nav .label {
@@ -827,7 +827,7 @@ nav ul.sub-menu > li:last-child > a {
 .single .meta-post a:hover,
 .blog.list-style .meta-post a:hover,
 .search.list-style .meta-post a:hover {
-    color: #c4d5cb;
+    color: #c1d8ca;
 }
 
 .single h1 {
@@ -1065,7 +1065,7 @@ nav ul.sub-menu > li:last-child > a {
 .blog.list-style article h2 a:hover,
 .blog-section.list-style article h2 a:hover,
 .search.list-style article h2 a:hover {
-    color: #c4d5cb;
+    color: #c1d8ca;
     text-decoration: none;
 }
 
@@ -1114,7 +1114,7 @@ nav ul.sub-menu > li:last-child > a {
 
 .portfolio ul.cats li.active {
     border-bottom: none;
-    color: #c4d5cb;
+    color: #c1d8ca;
 }
 
 .related .item {
@@ -1376,7 +1376,7 @@ a.reply {
 
 .comment-author cite a:hover,
 a.reply:hover {
-    color: #c4d5cb;
+    color: #c1d8ca;
 }
 
 .comment-author {
@@ -3574,7 +3574,7 @@ footer .row-content.buffer {
     }
 
     nav ul li > a:hover {
-        color: #c4d5cb !important;
+        color: #c1d8ca !important;
     }
 
     nav > ul > li:hover > a {
