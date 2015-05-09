@@ -2842,8 +2842,8 @@ i.fa.dark-grey {
 footer {
     position: relative;
     z-index: 10;
-    background-color: #363842;
-    color: #545766;
+    background-color: #f5f5f5;
+    color: #d3d3d3;
 }
 
 footer h1,
