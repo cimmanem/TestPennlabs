@@ -1177,7 +1177,7 @@ jQuery(document).ready(function ($) {
                 red2 = "#fe8e84",
                 orange1 = "#fa6f57",
                 orange2 = "#fb9381",
-                yellow1 = "#fecd5e",
+                yellow1 = "#fecd5e", 
                 yellow2 = "#fedc8f",
                 green1 = "#a1d26e",
                 green2 = "#b9dd92",
