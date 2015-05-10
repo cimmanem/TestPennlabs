@@ -14,12 +14,12 @@
 ----------------------------------------------------------------*/
 
 ::selection {
-    background: #8DCCCF;
+    background: #B89BBB;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #8DCCCF;
+    background: #B89BBB;
     color: #fff;
 }
 
@@ -498,7 +498,7 @@ nav ul.sub-menu > li > a {
 }
 
 nav ul.sub-menu > li > a:hover {
-    background-color: #8DCCCF;
+    background-color: #B89BBB;
     color: #fff;
 }
 
@@ -533,7 +533,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 #menu-toggle:hover {
-    color: #8DCCCF;
+    color: #B89BBB;
 }
 
 
@@ -575,7 +575,7 @@ nav ul.sub-menu > li:last-child > a {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(173, 175, 176, 0.76);
+    background: rgba(211, 205, 211, 0.82);
 }
 
 #intro .intro-mockup,
@@ -771,7 +771,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 .single #post-nav a:hover {
-    color: #8DCCCF;
+    color: #B89BBB;
 }
 
 .single #post-nav .label {
@@ -827,7 +827,7 @@ nav ul.sub-menu > li:last-child > a {
 .single .meta-post a:hover,
 .blog.list-style .meta-post a:hover,
 .search.list-style .meta-post a:hover {
-    color: #8DCCCF;
+    color: #B89BBB;
 }
 
 .single h1 {
@@ -1065,7 +1065,7 @@ nav ul.sub-menu > li:last-child > a {
 .blog.list-style article h2 a:hover,
 .blog-section.list-style article h2 a:hover,
 .search.list-style article h2 a:hover {
-    color: #8DCCCF;
+    color: #B89BBB;
     text-decoration: none;
 }
 
@@ -1114,7 +1114,7 @@ nav ul.sub-menu > li:last-child > a {
 
 .portfolio ul.cats li.active {
     border-bottom: none;
-    color: #8DCCCF;
+    color: #B89BBB;
 }
 
 .related .item {
@@ -1376,7 +1376,7 @@ a.reply {
 
 .comment-author cite a:hover,
 a.reply:hover {
-    color: #8DCCCF;
+    color: #B89BBB;
 }
 
 .comment-author {
@@ -2446,7 +2446,9 @@ input.button {
 input.button:hover {
     border-bottom: none;
     background-color: rgba(84,87,102,0.9);
+    
 }
+<!--***** KATHERINE *****-->
 
 .button:active,
 input.button:active {
@@ -2483,8 +2485,9 @@ input.button.orange:hover {
 
 .button.yellow,
 input.button.yellow {
-    background-color: rgba(254,205,94,1);
+    background-color: rgba(255,171,12,1);
 }
+<!--original:254,205,94,1 -->
 
 .button.yellow:hover,
 input.button.yellow:hover {
@@ -2584,15 +2587,18 @@ input.button.dark-grey:hover {
 
 .button.transparent,
 input.button.transparent {
-    border: 2px solid rgba(84,87,102,1);
+    border: 2px solid rgba(254,205,94,1);
     background-color: transparent;
     color: rgba(84,87,102,1) !important;
 }
 
+<!-- changed the solid to yellow ^ and v -->
+
+
 .button.transparent:hover,
 input.button.transparent:hover {
     border: 2px solid rgba(84,87,102,1);
-    background-color: rgba(84,87,102,1);
+    background-color: rgba(254,205,94,1);
     color: #fff !important;
 }
 
@@ -2624,9 +2630,11 @@ input.button.transparent.orange:hover {
 
 .button.transparent.yellow,
 input.transparent.button.yellow {
-    border: 2px solid rgba(254,205,94,1);
-    color: rgba(254,205,94,1) !important;
+    border: 2px solid rgba(255,171,12,1);
+    color: rgba(255,171,12,1) !important;
 }
+
+<!-- original:254,205,94,1 -->
 
 .button.transparent.yellow:hover,
 input.button.transparent.yellow:hover {
@@ -2772,8 +2780,9 @@ i.fa.orange {
 .yellow,
 i.icon.yellow,
 i.fa.yellow {
-    color: #fecd5e;
+    color: #83265F;
 }
+<!-- original:fecd5e  -->
 
 .green,
 i.icon.green,
@@ -3574,7 +3583,7 @@ footer .row-content.buffer {
     }
 
     nav ul li > a:hover {
-        color: #8DCCCF !important;
+        color: #B89BBB !important;
     }
 
     nav > ul > li:hover > a {

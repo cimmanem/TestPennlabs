@@ -8,11 +8,11 @@
 
 
     $to = "pennlabs@uphs.upenn.edu"; // Replace xxxx@xxxx.com with your email address (mandatory!) 
-    $subject = "PennLabs - New Message"; // Choose a custom subject (not mandatory)
+    $subject = "Penn Labs - New Message"; // Choose a custom subject (not mandatory)
 
     $body = "You have received a message from " . $name . " [Role: " . $role . "] (" . $email . "):\n\n" . $message;
 
-    $from = "From: PennLabs Landing Page"; // Replace "Beetle Template" with your site name (not mandatory)   
+    $from = "From: Penn Labs Landing Page"; // Replace "Beetle Template" with your site name (not mandatory)   
     $headers = "From:" . $from . "\r\n";
     $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion();    
