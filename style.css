@@ -1,5 +1,7 @@
 /*
+*   Written by Katherine Choi
 *   
+*   Adapted from:
 *   Version: 1.0
 *   Theme Name: Beetle HTML
 *   Theme URI: http://themes.mokaine.com/beetle-html
@@ -18,10 +20,12 @@
     color: #fff;
 }
 
+
 ::-moz-selection {
     background: #B89BBB;
     color: #fff;
 }
+
 
 ::-webkit-input-placeholder {
     color: #b3b3b3;
@@ -498,9 +502,10 @@ nav ul.sub-menu > li > a {
 }
 
 nav ul.sub-menu > li > a:hover {
-    background-color: #B89BBB;
+    background-color: #ffab0c;
     color: #fff;
 }
+/* header colors */
 
 nav ul.sub-menu > li:first-child > a {
     border-radius: 2px 2px 0 0;
@@ -533,9 +538,9 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 #menu-toggle:hover {
-    color: #B89BBB;
+    color: #ffab0c;
 }
-
+/* header colors */
 
 /*----------------------------------------------------------------
     Intro
