@@ -2453,7 +2453,7 @@ input.button:hover {
     background-color: rgba(84,87,102,0.9);
     
 }
-<!--***** KATHERINE *****-->
+
 
 .button:active,
 input.button:active {
@@ -2492,7 +2492,7 @@ input.button.orange:hover {
 input.button.yellow {
     background-color: rgba(255,171,12,1);
 }
-<!--original:254,205,94,1 -->
+
 
 .button.yellow:hover,
 input.button.yellow:hover {
@@ -2597,8 +2597,7 @@ input.button.transparent {
     color: rgba(84,87,102,1) !important;
 }
 
-<!-- changed the solid to yellow ^ and v -->
-
+/* not sure what i changed for ^ and v */
 
 .button.transparent:hover,
 input.button.transparent:hover {
@@ -2639,7 +2638,7 @@ input.transparent.button.yellow {
     color: rgba(255,171,12,1) !important;
 }
 
-<!-- original:254,205,94,1 -->
+/* original:254,205,94,1 */
 
 .button.transparent.yellow:hover,
 input.button.transparent.yellow:hover {
@@ -2787,7 +2786,7 @@ i.icon.yellow,
 i.fa.yellow {
     color: #83265F;
 }
-<!-- original:fecd5e  -->
+/* original:fecd5e  */
 
 .green,
 i.icon.green,
