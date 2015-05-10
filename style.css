@@ -587,7 +587,7 @@ nav ul.sub-menu > li:last-child > a {
 .caption,
 .caption-mockup,
 .photocaption {
-    z-index: 2;
+    z-index: 4;
 }
 
 .caption,
@@ -655,7 +655,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 .caption h2 {
-    margin-top: 0.222em;
+    margin-top: 0;
 }
 
 .caption p,
