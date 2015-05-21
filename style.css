@@ -462,15 +462,15 @@ header.transparent.light nav > ul > li:hover > a {
 }
 
 nav li {
-    display: inline; /*kath added*/
-    float: left; /*kath added*/
+    /*display: inline; /*kath added*/
+    /*float: left; /*kath added*/
     position: relative;
     white-space: nowrap;
 }
 
 nav > ul li:hover > ul.sub-menu {
     display: block;
-    width: 200px; /*kath added*/
+    /*width: 200px; /*kath added*/
  /* show the submenu */;
 }
 
@@ -481,7 +481,7 @@ nav .sub-arrow {
 }
 
 nav ul.sub-menu {
-    position: fixed;
+    position: relative;
     left: 0;
     z-index: 9999;
  /* level 2 */
@@ -518,9 +518,11 @@ nav ul.sub-menu > li > a:hover {
 
 
 /*subheader-2*/
+/*on desktop header, pulldown menu format, and on hover on mobile panel*/
 nav > ul li:hover > ul.sub-menu-2 {
     display: block;
- /* show the submenu2 */;
+    width: 100%; /*kath added*/
+ /* show the submenu2 */
 }
 
 nav .sub-arrow-2 {
@@ -543,50 +545,75 @@ nav ul.sub-menu-2 {
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
 }
 .column1 {
-    background-color: #F6F6F6;
-    position: fixed;
-    display: inline block;
-    left: 5%;
-    width: 30%;
-
-}
-.column2 {
-    background-color: #F6F6F6;
-    position: fixed;
-    display: inline block;
-    left: 35%;
-    width: 30%;
-
-}
-.column3 {
-    background-color: #F6F6F6;
-    position: fixed;
-    display: inline block;
-    left: 65%;
-    width: 30%;
-
-}
-
-nav ul.sub-menu-2 ul.sub-menu-2 {
-    top: 0px;
-    left: 100%;
- /* level 3+ */
-    margin-top: -0.063rem;
-    padding-top: 0;
-}
-
-nav ul.sub-menu-2 > li > a {
-    display: block;
+    background-color: #fff;
+    position: inherit;
+    display: inline;
+    left: -200%;
+    width: 200%;
+    height: auto;
+    margin-bottom: 0;
     padding: 0.5em 1em;
-    background-color: #F6F6F6;
-    font-size: 0.786em;
 }
 
+.column2 {
+    background-color: #fff;
+    position: inherit;
+    display: inline;
+    left: 0%;
+    width: 200%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0.5em 1em;
+}
+
+.column3 {
+    background-color: #fff;
+    position: inherit;
+    display: inline;
+    left: 200%;
+    width: 200%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0.5em 1em;
+}
 
 nav ul.sub-menu-2 > li > a:hover {
     background-color: #4fcead;
     color: #fff;
 }
+.column1 > li > a:hover{
+    background-color: #4fcead;
+    color: #4fcead;
+}
+.column2 > li > a:hover {
+    background-color: #4fcead;
+    color: #4fcead;
+}
+.column3 > li > a:hover {
+    background-color: #4fcead;
+    color: #4fcead;
+}
+nav ul.sub-menu-2 ul.sub-menu-2 {
+    top: 0px;
+    left: auto;
+ /* level 3+ */
+    margin-top: -0.063rem;
+    padding-top: 0;
+}
+
+
+/*mobile panel, what displays (submenu format)*/
+nav ul.sub-menu-2 > li > a {
+    display: inline;
+    width: 100%;
+    height: auto;
+    padding: 0.5em 1em;
+    background-color: #fff;
+    font-size: 0.786em;
+}
+
+
+
 
 
 /* header colors */
@@ -600,7 +627,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 
-nav ul.sub-menu {
+<!--duplicate?nav ul.sub-menu {
     position: absolute;
     left: 0;
     z-index: 9999;
@@ -614,6 +641,7 @@ nav ul.sub-menu {
     -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
 }
+
 
 nav ul.sub-menu-2 ul.sub-menu-2 {
     top: 0px;
@@ -633,7 +661,7 @@ nav ul.sub-menu-2 > li > a {
 nav ul.sub-menu-2 > li > a:hover {
     background-color: #4fcead;
     color: #fff;
-}
+}-->
 /* header colors */
 
 nav ul.sub-menu-2 > li:first-child > a {
@@ -3722,6 +3750,8 @@ footer .row-content.buffer {
         background-color: transparent !important;
     }
     
+   
+    
     nav ul.sub-menu-2 > li > a {
         -webkit-border-radius: 0 !important;
         -moz-border-radius: 0 !important;
@@ -3738,6 +3768,10 @@ footer .row-content.buffer {
         background-color: transparent !important;
     }
 
+    
+    
+    
+    
     nav ul li > a:hover {
         color: #4fcead !important;
     }
