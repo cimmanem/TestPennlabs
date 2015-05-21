@@ -462,12 +462,15 @@ header.transparent.light nav > ul > li:hover > a {
 }
 
 nav li {
+    display: inline; /*kath added*/
+    float: left; /*kath added*/
     position: relative;
     white-space: nowrap;
 }
 
 nav > ul li:hover > ul.sub-menu {
     display: block;
+    width: 200px; /*kath added*/
  /* show the submenu */;
 }
 
