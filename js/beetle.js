@@ -1145,7 +1145,7 @@ jQuery(document).ready(function ($) {
 
 
     /* Initialize Google Maps */
-
+/*
     function googleMap() {
 
         $('.map').each(function (i, e) {
@@ -1171,9 +1171,9 @@ jQuery(document).ready(function ($) {
                 center: latlng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
-
+*/
             /* Map's style */
-            var red1 = "#fd685b",
+  /*          var red1 = "#fd685b",
                 red2 = "#fe8e84",
                 orange1 = "#fa6f57",
                 orange2 = "#fb9381",
@@ -1937,7 +1937,7 @@ jQuery(document).ready(function ($) {
 
             var contentString = '<div class="infobox-inner" style="color: ' + textcolor + ';">' + $map_info + '</div>';
 
-            /* Custom infowindow code; it has been replaced by the code below, using Infobox plugin
+   */         /* Custom infowindow code; it has been replaced by the code below, using Infobox plugin
 
             var infowindow = new google.maps.InfoWindow({
                 content: contentString
@@ -1949,7 +1949,7 @@ jQuery(document).ready(function ($) {
             infowindow.open(map,marker); // To force Infowindow open
 
             */
-
+/*
             var infobox = new InfoBox({
                 content: contentString,
                 disableAutoPan: false,
@@ -2008,7 +2008,7 @@ jQuery(document).ready(function ($) {
         googleMap();
 
     }
-
+*/
 
     /* Add some "last" classes */
 

@@ -127,6 +127,12 @@ img {
     display: block;
 }
 
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .centertxt {
     text-align: center;
 }
@@ -472,7 +478,7 @@ nav .sub-arrow {
 }
 
 nav ul.sub-menu {
-    position: absolute;
+    position: fixed;
     left: 0;
     z-index: 9999;
  /* level 2 */
@@ -496,6 +502,7 @@ nav ul.sub-menu ul.sub-menu {
 
 nav ul.sub-menu > li > a {
     display: block;
+    width: 100%;
     padding: 0.5rem 1rem;
     background-color: #F6F6F6;
     font-size: 0.786em;
@@ -505,6 +512,80 @@ nav ul.sub-menu > li > a:hover {
     background-color: #4fcead;
     color: #fff;
 }
+
+
+/*subheader-2*/
+nav > ul li:hover > ul.sub-menu-2 {
+    display: block;
+ /* show the submenu2 */;
+}
+
+nav .sub-arrow-2 {
+    padding-left: 0.500em;
+    vertical-align: middle;
+    font-size: 0.714em;
+}
+
+nav ul.sub-menu-2 {
+    position: absolute;
+    z-index: 9999;
+ /* level 2 */
+    display: none;
+    margin-bottom: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+.column1 {
+    background-color: #F6F6F6;
+    position: fixed;
+    display: inline block;
+    left: 5%;
+    width: 30%;
+
+}
+.column2 {
+    background-color: #F6F6F6;
+    position: fixed;
+    display: inline block;
+    left: 35%;
+    width: 30%;
+
+}
+.column3 {
+    background-color: #F6F6F6;
+    position: fixed;
+    display: inline block;
+    left: 65%;
+    width: 30%;
+
+}
+
+nav ul.sub-menu-2 ul.sub-menu-2 {
+    top: 0px;
+    left: 100%;
+ /* level 3+ */
+    margin-top: -0.063rem;
+    padding-top: 0;
+}
+
+nav ul.sub-menu-2 > li > a {
+    display: block;
+    padding: 0.5em 1em;
+    background-color: #F6F6F6;
+    font-size: 0.786em;
+}
+
+
+nav ul.sub-menu-2 > li > a:hover {
+    background-color: #4fcead;
+    color: #fff;
+}
+
+
 /* header colors */
 
 nav ul.sub-menu > li:first-child > a {
@@ -514,6 +595,54 @@ nav ul.sub-menu > li:first-child > a {
 nav ul.sub-menu > li:last-child > a {
     border-radius: 0 0 2px 2px;
 }
+
+
+nav ul.sub-menu {
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+ /* level 2 */
+    display: none;
+    margin-bottom: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+nav ul.sub-menu-2 ul.sub-menu-2 {
+    top: 0px;
+    left: 100%;
+ /* level 3+ */
+    margin-top: -0.063rem;
+    padding-top: 0;
+}
+
+nav ul.sub-menu-2 > li > a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #F6F6F6;
+    font-size: 0.786em;
+}
+
+nav ul.sub-menu-2 > li > a:hover {
+    background-color: #4fcead;
+    color: #fff;
+}
+/* header colors */
+
+nav ul.sub-menu-2 > li:first-child > a {
+    border-radius: 2px 2px 0 0;
+}
+
+nav ul-2.sub-menu-2 > li:last-child > a {
+    border-radius: 0 0 2px 2px;
+}
+
+
+
 
 #menu-toggle {
     display: none;
@@ -3546,6 +3675,10 @@ footer .row-content.buffer {
     .sub-arrow {
         display: none;
     }
+    .sub-arrow-2 {
+        display: none;
+    }
+    
 
     nav > ul li > a {
         display: block;
@@ -3585,6 +3718,22 @@ footer .row-content.buffer {
     nav ul li > a:hover {
         background-color: transparent !important;
     }
+    
+    nav ul.sub-menu-2 > li > a {
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    nav ul.sub-menu-2 > li > a {
+        color: #666 !important;
+        font-size: 0.688rem;
+    }
+
+    nav ul.sub-menu-2 > li > a,
+    nav ul li > a:hover {
+        background-color: transparent !important;
+    }
 
     nav ul li > a:hover {
         color: #4fcead !important;
@@ -3595,6 +3744,16 @@ footer .row-content.buffer {
     }
 
     nav ul.sub-menu {
+        position: static;
+        display: block;
+        padding: 0 0 0 1.5em;
+        width: inherit;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    
+    nav ul.sub-menu-2 {
         position: static;
         display: block;
         padding: 0 0 0 1.5em;
