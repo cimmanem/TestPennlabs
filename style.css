@@ -294,7 +294,7 @@ header {
     z-index: 9;
     padding: 0.5rem 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: rgba(255, 255, 255, 0.);
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
@@ -3845,6 +3845,131 @@ footer .row-content.buffer {
 .landing-els.lightbox .spinner > div {
     background-color: rgba(255,255,255,0.5);
 }
+
+
+
+/*-------sub-menu-2 for emtech gallery------
+--------------------------------------------*/
+nav ul.sub-menu-2 {
+        position: static;
+        display: block;
+        padding: 0 0 0 1.5em;
+        width: inherit;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    
+    
+    nav ul.sub-menu-2 {
+    position: absolute;
+    z-index: 9999;
+ /* level 2 */
+    display: none;
+    margin-bottom: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+.column1 {
+    background-color: #fff;
+    position: inherit;
+    display: inline;
+    left: -200%;
+    width: 200%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0.5em 1em;
+}
+
+.column2 {
+    background-color: #fff;
+    position: inherit;
+    display: inline;
+    left: 0%;
+    width: 200%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0.5em 1em;
+}
+
+.column3 {
+    background-color: #fff;
+    position: inherit;
+    display: inline;
+    left: 200%;
+    width: 200%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0.5em 1em;
+}
+
+nav ul.sub-menu-2 > li > a:hover {
+    background-color: #4fcead;
+    color: #fff;
+}
+.column1 > li > a:hover{
+    background-color: #4fcead;
+    color: #4fcead;
+}
+.column2 > li > a:hover {
+    background-color: #4fcead;
+    color: #4fcead;
+}
+.column3 > li > a:hover {
+    background-color: #4fcead;
+    color: #4fcead;
+}
+nav ul.sub-menu-2 ul.sub-menu-2 {
+    top: 0px;
+    left: auto;
+ /* level 3+ */
+    margin-top: -0.063rem;
+    padding-top: 0;
+}
+
+
+/*mobile panel, what displays (submenu format)*/
+nav ul.sub-menu-2 > li > a {
+    display: inline;
+    width: 100%;
+    height: auto;
+    padding: 0.5em 1em;
+    background-color: #fff;
+    font-size: 0.786em;
+}
+
+
+nav ul.sub-menu-2 > li:first-child > a {
+    border-radius: 2px 2px 0 0;
+}
+
+nav ul-2.sub-menu-2 > li:last-child > a {
+    border-radius: 0 0 2px 2px;
+}
+
+
+
+
+ nav ul.sub-menu-2 > li > a {
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        border-radius: 0 !important;
+}
+
+nav ul.sub-menu-2 > li > a {
+        color: #666 !important;
+        font-size: 0.688rem;
+}
+
+    nav ul.sub-menu-2 > li > a,
+    nav ul li > a:hover {
+        background-color: transparent !important;
+    }
+
 
 
 /*----------------------------------------------------------------
