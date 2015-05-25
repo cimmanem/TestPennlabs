@@ -16,13 +16,13 @@
 ----------------------------------------------------------------*/
 
 ::selection {
-    background: #B89BBB;
+    background: #7cc576;
     color: #fff;
 }
 
 
 ::-moz-selection {
-    background: #B89BBB;
+    background: #7cc576;
     color: #fff;
 }
 
@@ -294,7 +294,7 @@ header {
     z-index: 9;
     padding: 0.5rem 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: rgba(255, 255, 255, 0.);
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
@@ -496,16 +496,127 @@ nav ul.sub-menu ul.sub-menu {
 
 nav ul.sub-menu > li > a {
     display: block;
+
     padding: 0.5rem 1rem;
     background-color: #F6F6F6;
     font-size: 0.786em;
 }
 
 nav ul.sub-menu > li > a:hover {
-    background-color: #4fcead;
+    background-color: #609eea;
     color: #fff;
 }
 /* header colors */
+
+
+/*------submenu2-------
+----------------------*/
+/*on desktop header, pulldown menu format, and on hover on mobile panel*/
+nav > ul li:hover > ul.sub-menu-2 {
+    display: inline;
+    width: 100%; /*kath added*/
+ /* show the submenu2 */
+}
+
+nav ul.sub-menu-2 {
+    position: absolute;
+    z-index: 9999;
+ /* level 2 */
+    display: none;
+    margin-bottom: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+.column1 {
+    background-color: #fff;
+    position: inherit;
+    display: inline;
+    left: -210%;
+    width: 200%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0em 1em; /*was 0.5em 1em*/
+}
+
+.column2 {
+    background-color: #fff;
+    position: inherit;
+    display: inline;
+    left: -10%;
+    width: 200%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0em 1em; /*was 0.5em 1em*/
+}
+/*
+.column3 {
+    background-color: #fff;
+    position: inherit;
+    display: inline;
+    left: 200%;
+    width: 200%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0.5em 1em;
+}*/
+
+nav ul.sub-menu-2 > li > a:hover {
+    background-color: #609eea;
+    color: #fff;
+}
+.column1 > li > a:hover{
+    background-color: #609eea;
+    color: #609eea;
+}
+.column2 > li > a:hover {
+    background-color: #609eea;
+    color: #609eea;
+}
+.column3 > li > a:hover {
+    background-color: #609eea;
+    color: #609eea;
+}
+nav ul.sub-menu-2 ul.sub-menu-2 {
+    top: 0px;
+    left: 0; /*was auto*/
+ /* level 3+ */
+    margin-top: -0.063rem;
+    padding-top: 0;
+}
+
+/*subheader-2*/
+
+
+/*mobile panel, what displays (submenu format)*/
+nav ul.sub-menu-2 > li > a {
+    display: inherit;
+    width: 100%;
+    height: auto;
+    padding: 0.5em 1em;
+    background-color: #fff; /*was fff*/
+    font-size: 0.786em;
+}
+
+
+
+
+nav ul.sub-menu-2 > li:first-child > a {
+    border-radius: 2px 2px 0 0;
+}
+
+nav ul-2.sub-menu-2 > li:last-child > a {
+    border-radius: 0 0 2px 2px;
+}
+
+
+
+/*-----------end submenu2 interlude------
+-----------------------------------------*/
+
 
 nav ul.sub-menu > li:first-child > a {
     border-radius: 2px 2px 0 0;
@@ -538,7 +649,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 #menu-toggle:hover {
-    color: #4fcead;
+    color: #609eea;
 }
 /* header colors */
 
@@ -580,8 +691,8 @@ nav ul.sub-menu > li:last-child > a {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(211, 205, 211, 0.82);
-}
+    background: rgba(209, 210, 210, 0.82);
+} /*kath rgba(211, 205, 211, 0.82) rose colored*/
 
 #intro .intro-mockup,
 .caption,
@@ -776,7 +887,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 .single #post-nav a:hover {
-    color: #4fcead;
+    color: #609eea;
 }
 
 .single #post-nav .label {
@@ -832,7 +943,7 @@ nav ul.sub-menu > li:last-child > a {
 .single .meta-post a:hover,
 .blog.list-style .meta-post a:hover,
 .search.list-style .meta-post a:hover {
-    color: #4fcead;
+    color: #609eea;
 }
 
 .single h1 {
@@ -1070,7 +1181,7 @@ nav ul.sub-menu > li:last-child > a {
 .blog.list-style article h2 a:hover,
 .blog-section.list-style article h2 a:hover,
 .search.list-style article h2 a:hover {
-    color: #4fcead;
+    color: #609eea;
     text-decoration: none;
 }
 
@@ -1119,7 +1230,7 @@ nav ul.sub-menu > li:last-child > a {
 
 .portfolio ul.cats li.active {
     border-bottom: none;
-    color: #4fcead;
+    color: #609eea;
 }
 
 .related .item {
@@ -1381,7 +1492,7 @@ a.reply {
 
 .comment-author cite a:hover,
 a.reply:hover {
-    color: #4fcead;
+    color: #609eea;
 }
 
 .comment-author {
@@ -2490,13 +2601,13 @@ input.button.orange:hover {
 
 .button.yellow,
 input.button.yellow {
-    background-color: rgba(255,171,12,1);
+    background-color: rgba(33,196,217,1);
 }
 
 
 .button.yellow:hover,
 input.button.yellow:hover {
-    background-color: rgba(254,205,94,0.9);
+    background-color: rgba(33,196,217,0.9);
 }
 
 .button.green,
@@ -2784,7 +2895,7 @@ i.fa.orange {
 .yellow,
 i.icon.yellow,
 i.fa.yellow {
-    color: #83265F;
+    color: #609eea;
 }
 /* original:fecd5e  */
 
@@ -2797,7 +2908,7 @@ i.fa.green {
 .mint,
 i.icon.mint,
 i.fa.mint {
-    color: #4fcead;
+    color: #609eea;
 }
 
 .aqua,
@@ -3576,6 +3687,9 @@ footer .row-content.buffer {
         border-radius: 0 !important;
     }
 
+    
+    
+    
     nav ul.sub-menu > li > a {
         color: #666 !important;
         font-size: 0.688rem;
@@ -3584,10 +3698,10 @@ footer .row-content.buffer {
     nav ul.sub-menu > li > a,
     nav ul li > a:hover {
         background-color: transparent !important;
-    }
+    }  /*static subheader bkgd prehover*/
 
     nav ul li > a:hover {
-        color: #4fcead !important;
+        color: #609eea !important;
     }
 
     nav > ul > li:hover > a {
@@ -3604,6 +3718,17 @@ footer .row-content.buffer {
         box-shadow: none;
     }
 
+    
+     nav ul.sub-menu-2 {
+        position: static;
+        display: inline; /*was block*/
+        padding: 0 0 0 0; /*was 0 0 0 1.5em*/
+        width: 100%; /*was inherit*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    
     #intro {
         position: relative;
     }
@@ -3845,6 +3970,37 @@ footer .row-content.buffer {
 .landing-els.lightbox .spinner > div {
     background-color: rgba(255,255,255,0.5);
 }
+
+
+
+/*-------sub-menu-2 for emtech gallery------
+--------------------------------------------*/
+
+
+ 
+
+
+
+
+
+
+ nav ul.sub-menu-2 > li > a {
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        border-radius: 0 !important;
+}
+
+nav ul.sub-menu-2 > li > a {
+        color: #666 !important;
+        font-size: 0.688rem;
+}
+
+    nav ul.sub-menu-2 > li > a,
+    nav ul li > a:hover {
+        background-color: transparent !important; 
+    }
+/*hover background color on all header*/
+
 
 
 /*----------------------------------------------------------------
