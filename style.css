@@ -16,13 +16,13 @@
 ----------------------------------------------------------------*/
 
 ::selection {
-    background: #B89BBB;
+    background: #7cc15c;
     color: #fff;
 }
 
 
 ::-moz-selection {
-    background: #B89BBB;
+    background: #7cc15c;
     color: #fff;
 }
 
@@ -580,8 +580,8 @@ nav ul.sub-menu > li:last-child > a {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(211, 205, 211, 0.82);
-}
+    background: rgba(209, 210, 210, 0.82);
+} /*kath rgba(211, 205, 211, 0.82) rose colored*/
 
 #intro .intro-mockup,
 .caption,
@@ -2490,13 +2490,13 @@ input.button.orange:hover {
 
 .button.yellow,
 input.button.yellow {
-    background-color: rgba(255,171,12,1);
+    background-color: rgba(33,196,217,1);
 }
 
 
 .button.yellow:hover,
 input.button.yellow:hover {
-    background-color: rgba(254,205,94,0.9);
+    background-color: rgba(33,196,217,0.9);
 }
 
 .button.green,
@@ -2784,7 +2784,7 @@ i.fa.orange {
 .yellow,
 i.icon.yellow,
 i.fa.yellow {
-    color: #83265F;
+    color: #21c4d9;
 }
 /* original:fecd5e  */
 
@@ -3885,8 +3885,8 @@ nav ul.sub-menu-2 {
     background-color: #fff;
     position: inherit;
     display: inline;
-    left: -200%;
-    width: 200%;
+    left: -100%;
+    width: 100%;
     height: auto;
     margin-bottom: 0;
     padding: 0.5em 1em;
@@ -3897,12 +3897,12 @@ nav ul.sub-menu-2 {
     position: inherit;
     display: inline;
     left: 0%;
-    width: 200%;
+    width: 100%;
     height: auto;
     margin-bottom: 0;
     padding: 0.5em 1em;
 }
-
+/*
 .column3 {
     background-color: #fff;
     position: inherit;
@@ -3912,7 +3912,7 @@ nav ul.sub-menu-2 {
     height: auto;
     margin-bottom: 0;
     padding: 0.5em 1em;
-}
+}*/
 
 nav ul.sub-menu-2 > li > a:hover {
     background-color: #4fcead;
@@ -3939,12 +3939,7 @@ nav ul.sub-menu-2 ul.sub-menu-2 {
 }
 
 /*subheader-2*/
-/*on desktop header, pulldown menu format, and on hover on mobile panel*/
-nav > ul li:hover > ul.sub-menu-2 {
-    display: block;
-    width: 100%; /*kath added*/
- /* show the submenu2 */
-}
+
 
 /*mobile panel, what displays (submenu format)*/
 nav ul.sub-menu-2 > li > a {
@@ -3955,6 +3950,15 @@ nav ul.sub-menu-2 > li > a {
     background-color: #fff;
     font-size: 0.786em;
 }
+
+
+/*on desktop header, pulldown menu format, and on hover on mobile panel*/
+nav > ul li:hover > ul.sub-menu-2 {
+    display: block;
+    width: 200px; /*kath added*/
+ /* show the submenu2 */
+}
+
 
 
 nav ul.sub-menu-2 > li:first-child > a {
