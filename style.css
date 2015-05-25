@@ -16,13 +16,13 @@
 ----------------------------------------------------------------*/
 
 ::selection {
-    background: #7cc15c;
+    background: #7cc576;
     color: #fff;
 }
 
 
 ::-moz-selection {
-    background: #7cc15c;
+    background: #7cc576;
     color: #fff;
 }
 
@@ -496,14 +496,14 @@ nav ul.sub-menu ul.sub-menu {
 
 nav ul.sub-menu > li > a {
     display: block;
-    /*width: 100%; kath added*/
+
     padding: 0.5rem 1rem;
     background-color: #F6F6F6;
     font-size: 0.786em;
 }
 
 nav ul.sub-menu > li > a:hover {
-    background-color: #4fcead;
+    background-color: #609eea;
     color: #fff;
 }
 /* header colors */
@@ -565,20 +565,20 @@ nav ul.sub-menu-2 {
 }*/
 
 nav ul.sub-menu-2 > li > a:hover {
-    background-color: #4fcead;
+    background-color: #609eea;
     color: #fff;
 }
 .column1 > li > a:hover{
-    background-color: #4fcead;
-    color: #4fcead;
+    background-color: #609eea;
+    color: #609eea;
 }
 .column2 > li > a:hover {
-    background-color: #4fcead;
-    color: #4fcead;
+    background-color: #609eea;
+    color: #609eea;
 }
 .column3 > li > a:hover {
-    background-color: #4fcead;
-    color: #4fcead;
+    background-color: #609eea;
+    color: #609eea;
 }
 nav ul.sub-menu-2 ul.sub-menu-2 {
     top: 0px;
@@ -649,7 +649,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 #menu-toggle:hover {
-    color: #4fcead;
+    color: #609eea;
 }
 /* header colors */
 
@@ -887,7 +887,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 .single #post-nav a:hover {
-    color: #4fcead;
+    color: #609eea;
 }
 
 .single #post-nav .label {
@@ -943,7 +943,7 @@ nav ul.sub-menu > li:last-child > a {
 .single .meta-post a:hover,
 .blog.list-style .meta-post a:hover,
 .search.list-style .meta-post a:hover {
-    color: #4fcead;
+    color: #609eea;
 }
 
 .single h1 {
@@ -1181,7 +1181,7 @@ nav ul.sub-menu > li:last-child > a {
 .blog.list-style article h2 a:hover,
 .blog-section.list-style article h2 a:hover,
 .search.list-style article h2 a:hover {
-    color: #4fcead;
+    color: #609eea;
     text-decoration: none;
 }
 
@@ -1230,7 +1230,7 @@ nav ul.sub-menu > li:last-child > a {
 
 .portfolio ul.cats li.active {
     border-bottom: none;
-    color: #4fcead;
+    color: #609eea;
 }
 
 .related .item {
@@ -1492,7 +1492,7 @@ a.reply {
 
 .comment-author cite a:hover,
 a.reply:hover {
-    color: #4fcead;
+    color: #609eea;
 }
 
 .comment-author {
@@ -2895,7 +2895,7 @@ i.fa.orange {
 .yellow,
 i.icon.yellow,
 i.fa.yellow {
-    color: #21c4d9;
+    color: #609eea;
 }
 /* original:fecd5e  */
 
@@ -2908,7 +2908,7 @@ i.fa.green {
 .mint,
 i.icon.mint,
 i.fa.mint {
-    color: #4fcead;
+    color: #609eea;
 }
 
 .aqua,
@@ -3698,10 +3698,10 @@ footer .row-content.buffer {
     nav ul.sub-menu > li > a,
     nav ul li > a:hover {
         background-color: transparent !important;
-    } 
+    }  /*static subheader bkgd prehover*/
 
     nav ul li > a:hover {
-        color: #4fcead !important;
+        color: #609eea !important;
     }
 
     nav > ul > li:hover > a {
