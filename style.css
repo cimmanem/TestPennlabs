@@ -3610,9 +3610,9 @@ footer .row-content.buffer {
     
      nav ul.sub-menu-2 {
         position: static;
-        display: block;
+        display: inline; /*was block*/
         padding: 0 0 0 1.5em;
-        width: inherit;
+        width: 100%; /*was inherit*/
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
@@ -3865,15 +3865,7 @@ footer .row-content.buffer {
 /*-------sub-menu-2 for emtech gallery------
 --------------------------------------------*/
 
-nav ul.sub-menu-2 {
-        position: static;
-        display: block;
-        padding: 0 0 0 1.5em;
-        width: inherit;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-}
+
  
 
 nav ul.sub-menu-2 {
@@ -3940,7 +3932,7 @@ nav ul.sub-menu-2 > li > a:hover {
 }
 nav ul.sub-menu-2 ul.sub-menu-2 {
     top: 0px;
-    left: auto;
+    left: 0; /*was auto*/
  /* level 3+ */
     margin-top: -0.063rem;
     padding-top: 0;
@@ -3953,9 +3945,10 @@ nav > ul li:hover > ul.sub-menu-2 {
     width: 100%; /*kath added*/
  /* show the submenu2 */
 }
+
 /*mobile panel, what displays (submenu format)*/
 nav ul.sub-menu-2 > li > a {
-    display: inline;
+    display: inherit;
     width: 100%;
     height: auto;
     padding: 0.5em 1em;
