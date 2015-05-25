@@ -535,22 +535,24 @@ nav ul.sub-menu-2 {
     background-color: #fff;
     position: inherit;
     display: inline;
-    left: -210%;
+    left: -250%;
     width: 200%;
     height: auto;
     margin-bottom: 0;
     padding: 0em 1em; /*was 0.5em 1em*/
+    
 }
 
 .column2 {
     background-color: #fff;
     position: inherit;
     display: inline;
-    left: -10%;
+    left: -50%;
     width: 200%;
     height: auto;
     margin-bottom: 0;
     padding: 0em 1em; /*was 0.5em 1em*/
+
 }
 /*
 .column3 {
